@@ -13,6 +13,12 @@
         android:theme="@style/Theme.Basic_App"
         tools:targetApi="31">
         <activity
+            android:name=".BottomNavigation2"
+            android:exported="false" />
+        <activity
+            android:name=".BottomNavigation1"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

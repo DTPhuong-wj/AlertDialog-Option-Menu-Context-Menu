@@ -5,12 +5,13 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".BottomNavigation1">
 
     <TextView
+        android:id="@+id/bottomNav1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Manage Films Ghibli"
+        android:text="Manage Films"
         android:layout_marginTop="248dp"
         android:textSize="30dp"
         android:textStyle="bold"
